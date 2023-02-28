@@ -41,3 +41,13 @@
 }
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  align-content: center;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 1;
+}
