@@ -32,5 +32,12 @@
   flex-flow: row wrap;
 }
 /* 6. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: center; 
+}
 
 /* 7. exercice-all-in-2 */
